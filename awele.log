@@ -1,0 +1,59 @@
+Mémoire totale : 4.0 GiB
+Instanciation du bot "Random"
+6 classes ont été trouvées
+
+Bot 1/6
+Classe : awele.bot.random.RandomBot
+Instanciation du bot "Random"
+Nom du bot : Random
+Auteur(s) : Alexandre Blansché
+Temps d'apprentissage : 00:00:00.000
+Durée d'une prise de décision : 00:00:00.000
+Usage mémoire : 0 B
+Usage mémoire maximum : 327.7 KiB
+
+Bot 2/6
+Classe : awele.bot.first.FirstBot
+Instanciation du bot "First"
+Nom du bot : First
+Auteur(s) : Alexandre Blansché
+Temps d'apprentissage : 00:00:00.000
+Durée d'une prise de décision : 00:00:00.000
+Usage mémoire : 376 B
+Usage mémoire maximum : 252.0 KiB
+
+Bot 3/6
+Classe : awele.bot.minmax.MinMaxBot
+Instanciation du bot "MinMax"
+Nom du bot : MinMax
+Auteur(s) : Alexandre Blansché
+Temps d'apprentissage : 00:00:00.000
+Durée d'une prise de décision : 00:00:00.001
+Usage mémoire : 1.5 KiB
+Usage mémoire maximum : 3.8 MiB
+
+Bot 4/6
+Classe : awele.bot.knn2.Knn2Bot
+Instanciation du bot "k-NN2"
+Nom du bot : k-NN2
+Auteur(s) : Alexandre Blansché
+Temps d'apprentissage : 00:00:00.026
+Durée d'une prise de décision : 00:00:00.000
+Usage mémoire : 43.1 KiB
+Usage mémoire maximum : 2.0 MiB
+
+Bot 5/6
+Classe : awele.bot.knn1.Knn1Bot
+Instanciation du bot "k-NN1"
+Nom du bot : k-NN1
+Auteur(s) : Alexandre Blansché
+Temps d'apprentissage : 00:00:00.002
+Durée d'une prise de décision : 00:00:00.000
+Usage mémoire : 12.4 KiB
+Usage mémoire maximum : 862.9 KiB
+
+Bot 6/6
+Classe : awele.bot.crocodile.Crocodile
+Instanciation du bot "Le crocodile crétin"
+Nom du bot : Le crocodile crétin
+Auteur(s) : Champion 2019
