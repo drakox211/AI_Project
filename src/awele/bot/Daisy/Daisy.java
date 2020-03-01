@@ -1,6 +1,8 @@
 package awele.bot.Daisy;
 
 import awele.bot.CompetitorBot;
+import awele.bot.minmax.MaxNode;
+import awele.bot.minmax.MinMaxNode;
 import awele.core.Board;
 import awele.core.InvalidBotException;
 
@@ -23,7 +25,8 @@ public class Daisy extends CompetitorBot {
 
     @Override
     public double[] getDecision(Board board) {
-        return new double[0];
+        MinMaxNode.initialize (board, 5);
+        return new MaxNode(board).getDecision ();
     }
 
     @Override

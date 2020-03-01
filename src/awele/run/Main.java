@@ -119,7 +119,7 @@ public final class Main extends OutputWriter
         // Pour l'évaluation, les seuls les bots des étudiants (CompetitorBot) sont mis en compétition 
         //Set <Class <? extends CompetitorBot>> subClassesTmp = reflections.getSubTypesOf (CompetitorBot.class);
         Set <Class <? extends Bot>> subClassesTmp = reflections.getSubTypesOf (Bot.class);
-        subClassesTmp.add (awele.bot.crocodile.Crocodile.class);
+        //subClassesTmp.add (awele.bot.crocodile.Crocodile.class);
         ArrayList <Class <? extends Bot>> subClasses = new ArrayList <Class <? extends Bot>> ();
         for (Class <? extends Bot> subClass : subClassesTmp)
         {
@@ -205,6 +205,7 @@ public final class Main extends OutputWriter
             {
                 game++;
                 this.print ();
+                this.print ("------------------------------------");
                 this.print ("Affrontement " + game + "/" + nbGames);
                 this.print (this.bots.get (i).getName () + " vs. " + this.bots.get (j).getName ());
                 double [] localPoints = new double [2];
